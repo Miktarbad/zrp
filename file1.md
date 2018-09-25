@@ -76,23 +76,23 @@ angekommen.
 Wenn Sie Fragen haben, können Sie uns telefonisch oder per E-Mail
 erreichen:
 
-> Gregor Fabian
+> Gregor 
 >
-> Tel.: 0511 450670-133
+> Tel.: 0
 >
-> E-Mail: fabian\@dzhw.eu
+> E-Mail: 
 >
-> Dr. Kai Mühleck
+> Dr. Kai 
 >
-> Tel.: 0511 450670-156
+> Tel.: 
 >
-> E-Mail: muehleck\@dzhw.eu
+> E-Mail: 
 >
-> Fabian Trennt
+> Fabian 
 >
-> Tel.: 0511 450670-153
+> Tel.: 
 >
-> E-Mail: trennt\@dzhw.eu
+> E-Mail: 
 
 q:
 
