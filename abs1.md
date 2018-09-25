@@ -1,7 +1,6 @@
-![](media/image1.png){width="7.228472222222222in"
-height="0.9486111111111111in"}
 
-![](media/image5.png){width="2.83125in" height="0.9083333333333333in"}
+
+
 
 Programmieranleitung
 --------------------
