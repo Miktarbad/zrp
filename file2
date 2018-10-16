@@ -1,6 +1,7 @@
-pn
+# pn
 
-## \[index\]
+\[index\]
+---------
 
 tc: (alle)
 
@@ -14,8 +15,8 @@ in:
 
 q:
 
-\!\!Herzlich willkommen zur Promovierenden- und Promoviertenbefragung
-„Nacaps“\!\!\!
+!!Herzlich willkommen zur Promovierenden- und Promoviertenbefragung
+„Nacaps"!!!
 
 Je nach persönlicher Lebenssituation wird die Befragung etwa 25 bis 35
 Minuten dauern. Die Befragung ist für Smartphones geeignet, aber an
@@ -26,13 +27,13 @@ ausgefüllt haben, haben Sie die Gelegenheit, an der Verlosung der in der
 Einladungs-E-Mail genannten Preise teilzunehmen.
 
 Für Ihre Teilnahme danken wir Ihnen bereits an dieser Stelle ganz
-herzlich\!
+herzlich!
 
 Dr. Kolja Briedis, Dr. Bernd Martens und Dr. Antje Wegner
 
 Projektleitung Nacaps
 
-\!\!Hinweise zum Datenschutz\!\!
+!!Hinweise zum Datenschutz!!
 
 Ihre Teilnahme ist selbstverständlich freiwillig. Ihre Angaben werden
 ausschließlich für Forschungszwecke genutzt. Sämtliche Nacaps-Daten
@@ -46,19 +47,19 @@ ao: 1 : : Ich habe die
 \#\#URL:[Datenschutzbestimmungen](http://www.nacaps.de/datenschutz/Datenschutz.pdf)\#\#
 gelesen und bin damit einverstanden.
 
-\!\!Kontakt\!\!
+!!Kontakt!!
 
-Bei \!\!Fragen zum Datenschutz\!\! wenden Sie sich bitte an den
+Bei !!Fragen zum Datenschutz!! wenden Sie sich bitte an den
 Datenschutzbeauftragten des DZHW, Herrn Martin Fuchs: Tel.: +49 511
-450670-491; E-Mail: \#\#URL:fuchs@dzhw.eu\#\#. Weitere Informationen zum
-Datenschutz am DZHW finden Sie
+450670-491; E-Mail: \#\#URL:fuchs\@dzhw.eu\#\#. Weitere Informationen
+zum Datenschutz am DZHW finden Sie
 \#\#URL:[hier](https://www.dzhw.eu/gmbh/datenschutz)\#\#.
 
-Bei allen \!\!anderen Fragen und Anmerkungen\!\! stehen wir Ihnen gerne
-zur Verfügung:
+Bei allen !!anderen Fragen und Anmerkungen!! stehen wir Ihnen gerne zur
+Verfügung:
 
 Telefonisch unter +49 30 206 417 746 oder +49 511 450 670 106 sowie per
-E-Mail: \#\#URL:nacaps@dzhw.eu\#\#
+E-Mail: \#\#URL:nacaps\@dzhw.eu\#\#
 
 mv:
 
@@ -88,7 +89,8 @@ hi: Hinweistext (fv) bitte in rot
 
 pn
 
-## \[A01\]
+\[A01\]
+-------
 
 tc: (alle)
 
@@ -155,11 +157,12 @@ Hinweistext (fv) bitte in rot
 
 pn
 
-## \[A02\]
+\[A02\]
+-------
 
 tc: IF adbi01 = 3
 
-(wenn A01 „Promotionsstatus“= 3 „unterbrochen“)
+(wenn A01 „Promotionsstatus"= 3 „unterbrochen")
 
 vn: adid01
 
@@ -199,11 +202,12 @@ hi: großes Textfeld
 
 pn
 
-## \[A03\]
+\[A03\]
+-------
 
 tc: IF adbi01 = 4
 
-(wenn A01 „Promotionsstatus“= 4 „abgebrochen“)
+(wenn A01 „Promotionsstatus"= 4 „abgebrochen")
 
 vn: adid02
 
@@ -245,11 +249,12 @@ hi: großes Textfeld
 
 pn
 
-## \[A04\]
+\[A04\]
+-------
 
 tc: IF adbi01 = 3
 
-(wenn A01 „Promotionsstatus“ = 3 „unterbrochen“)
+(wenn A01 „Promotionsstatus" = 3 „unterbrochen")
 
 vn: adid03
 
@@ -294,11 +299,12 @@ hi:
 
 pn
 
-## \[A05\]
+\[A05\]
+-------
 
 tc: IF adbi01 = 1
 
-(wenn A01 „Promotionsstatus“ = 1 „promoviere“)
+(wenn A01 „Promotionsstatus" = 1 „promoviere")
 
 vn:
 adtc01(adtc01a/adtc01b/adtc01c/adtc01d/adtc01e/adtc01f/adtc01g/adtc01h/adtc01i)
@@ -368,7 +374,8 @@ hi:
 
 pn
 
-## \[A06\]
+\[A06\]
+-------
 
 tc: (alle)
 
@@ -424,11 +431,12 @@ hi:
 
 pn
 
-## \[A07\]
+\[A07\]
+-------
 
 tc: IF adbi02a = SYSMISS AND adbi02b \<\> SYSMISS
 
-(wenn bei A06 („wann mit Promotion begonnen“) ein Jahr, aber kein Monat
+(wenn bei A06 („wann mit Promotion begonnen") ein Jahr, aber kein Monat
 angegeben wurde)
 
 vn: adbi03
@@ -485,7 +493,8 @@ hi:
 
 pn
 
-## \[A08\]
+\[A08\]
+-------
 
 tc: (alle)
 
@@ -549,11 +558,12 @@ hi:
 
 pn
 
-## \[A09\]
+\[A09\]
+-------
 
 tc: IF adbi04a = SYSMISS AND adbi04b \<\> SYSMISS
 
-(wenn bei A08 („wann zur Promotion zugelassen“) ein Jahr, aber kein
+(wenn bei A08 („wann zur Promotion zugelassen") ein Jahr, aber kein
 Monat angegeben wurde)
 
 vn: adbi05
@@ -607,11 +617,12 @@ hi:
 
 pn
 
-## \[A10\]
+\[A10\]
+-------
 
 tc: IF adbi01 = 2
 
-(wenn bei A01 („Promotionsstatus“) = 2 („abgeschlossen“))
+(wenn bei A01 („Promotionsstatus") = 2 („abgeschlossen"))
 
 vn: adbi06a/adbi06b
 
@@ -660,11 +671,12 @@ hi:
 
 pn
 
-## \[A11\]
+\[A11\]
+-------
 
 tc: IF adbi01 = 4
 
-(wenn A01 („Promotionsstatus“) = 4 („abgebrochen))
+(wenn A01 („Promotionsstatus") = 4 („abgebrochen))
 
 vn: adbi07
 
@@ -709,12 +721,13 @@ hi:
 
 pn
 
-## \[A12\]
+\[A12\]
+-------
 
 tc: IF adbi01 = 4 AND adbi07 = 1
 
-(wenn A01 („Promotionsstatus“) = 4 („abgebrochen) und A11 („Hochschule
-informiert“) = 1 („ja“))
+(wenn A01 („Promotionsstatus") = 4 („abgebrochen) und A11 („Hochschule
+informiert") = 1 („ja"))
 
 vn: adbi08a/adbi08b
 
@@ -765,11 +778,12 @@ hi:
 
 pn
 
-## \[A13\]
+\[A13\]
+-------
 
 tc: IF adbi08a = SYSMISS AND adbi09b \<\> SYSMISS
 
-(wenn bei A12 („Promotionsabbruch: Zeitpunkt“) ein Jahr, aber kein Monat
+(wenn bei A12 („Promotionsabbruch: Zeitpunkt") ein Jahr, aber kein Monat
 angegeben wurde)
 
 vn: adbi09
@@ -817,7 +831,8 @@ hi:
 
 pn
 
-## \[A14\]
+\[A14\]
+-------
 
 tc: (alle)
 
@@ -877,12 +892,13 @@ hi:
 
 pn
 
-## \[A15\]
+\[A15\]
+-------
 
 tc: IF (adbi01 = 1 OR adbi01 = 3) AND adbi10a \<\> SYSMISS
 
-(wenn A01 („Promotionsstatus“)= 1 („promoviere“) oder 3 („unterbrochen“)
-und A14 („Hochschule Promotion“) ausgefüllt)
+(wenn A01 („Promotionsstatus")= 1 („promoviere") oder 3 („unterbrochen")
+und A14 („Hochschule Promotion") ausgefüllt)
 
 vn:
 adtc02(adtc02a/adtc02b/adtc02c/adtc02d/adtc02e/adtc02f/adtc02g/adtc02h)
@@ -939,12 +955,13 @@ hi:
 
 pn
 
-## \[A16\]
+\[A16\]
+-------
 
 tc: IF adbi01 = 1 OR adbi01 = 3
 
-(wenn A01 („Promotionsstatus“) = 1 („promoviere“) oder 3
-(„unterbrochen“))
+(wenn A01 („Promotionsstatus") = 1 („promoviere") oder 3
+(„unterbrochen"))
 
 vn: adbi11
 
@@ -991,13 +1008,13 @@ hi:
 
 pn
 
-## \[A17\]
+\[A17\]
+-------
 
 tc: IF (adbi01 = 1 OR adbi01 = 3) AND adbi11 = 1
 
-(wenn A01 („Promotionsstatus“) = 1 („promoviere“) oder 3
-(„unterbrochen“) und A16 („Hochschule im Ausland beteiligt“) = 1
-(„Ja“))
+(wenn A01 („Promotionsstatus") = 1 („promoviere") oder 3
+(„unterbrochen") und A16 („Hochschule im Ausland beteiligt") = 1 („Ja"))
 
 vn: adbi12
 
@@ -1042,12 +1059,13 @@ hi:
 
 pn
 
-## \[A18\]
+\[A18\]
+-------
 
 tc: IF adbi01 = 1 OR adbi01 = 3
 
-(wenn A01 („Promotionsstatus“) = 1 („promoviere“) oder 3
-(„unterbrochen“))
+(wenn A01 („Promotionsstatus") = 1 („promoviere") oder 3
+(„unterbrochen"))
 
 vn: adbi13
 
@@ -1094,12 +1112,13 @@ hi:
 
 pn
 
-## \[A19\]
+\[A19\]
+-------
 
 tc: IF (adbi01 = 1 OR adbi01 = 3) AND adbi13 = 1
 
-(wenn A01 („Promotionsstatus“) = 1 („promoviere“) oder 3
-(„unterbrochen“)) und A18 („Fachhochschule beteiligt“) = 1 („Ja“))
+(wenn A01 („Promotionsstatus") = 1 („promoviere") oder 3
+(„unterbrochen")) und A18 („Fachhochschule beteiligt") = 1 („Ja"))
 
 vn: adbi14(adbi14a/adbi14b/adbi14c/adbi14d/adbi14e/adbi14f/adbi14g)
 
@@ -1157,7 +1176,8 @@ hi:
 
 pn
 
-## \[A20\]
+\[A20\]
+-------
 
 tc: (alle)
 
@@ -1213,12 +1233,13 @@ hi:
 
 pn
 
-## \[B01\]
+\[B01\]
+-------
 
 tc: IF adbi01 = 1 OR adbi01 = 2 OR adbi01 = 3
 
-(wenn A01 („Promotionsstatus“) = 1 („promoviere“), 2 („abgeschlossen“)
-oder 3 („unterbrochen“))
+(wenn A01 („Promotionsstatus") = 1 („promoviere"), 2 („abgeschlossen")
+oder 3 („unterbrochen"))
 
 vn: adcd01
 
@@ -1276,14 +1297,15 @@ einblenden bis das nächste Modul C beginnt.
 
 pn
 
-## \[B02\]
+\[B02\]
+-------
 
 tc: IF (adbi01 = 1 OR adib01 = 2 OR adbi01 = 3) AND adcd01 = 1
 
-(wenn {A01 („Promotionsstatus“) = 1 („promoviere“), 2 („abgeschlossen“)
-oder 3 („unterbrochen“))
+(wenn {A01 („Promotionsstatus") = 1 („promoviere"), 2 („abgeschlossen")
+oder 3 („unterbrochen"))
 
-Und B01 {„Teil eines Forschungsprojekts“) = 1 („Ja“)})
+Und B01 {„Teil eines Forschungsprojekts") = 1 („Ja")})
 
 vn: adcd02
 
@@ -1293,10 +1315,10 @@ hl:
 
 in:
 
-q1: Gibt es in dem Forschungsprojekt – außer Ihnen selbst – noch andere
-Promovierende?
+q1: Gibt es in dem Forschungsprojekt -- außer Ihnen selbst -- noch
+andere Promovierende?
 
-q2: Gab es in dem Forschungsprojekt – außer Ihnen selbst – noch andere
+q2: Gab es in dem Forschungsprojekt -- außer Ihnen selbst -- noch andere
 Promovierende?
 
 is:
@@ -1337,12 +1359,13 @@ hi:
 
 pn
 
-## \[B03\]
+\[B03\]
+-------
 
 tc: IF adbi01 = 1 OR adbi01 = 3 OR adbi01 = 4
 
-(wenn A01 („Promotionsstatus“) = 1 („promoviere“), 3 („unterbrochen“)
-oder 4 („abgebrochen“))
+(wenn A01 („Promotionsstatus") = 1 („promoviere"), 3 („unterbrochen")
+oder 4 („abgebrochen"))
 
 vn: adtc03
 
@@ -1397,12 +1420,13 @@ hi:
 
 pn
 
-## \[B04\]
+\[B04\]
+-------
 
 tc: IF (adbi01 = 1 OR adbi01 = 2 OR adbi01 = 3) AND adtc03 = 1
 
-(wenn {(A01 („Promotionsstatus“) = 1 („promoviere“), 2 („abgeschlossen“)
-oder 3 („unterbrochen“)) und („konkretes Promotionsthema“) = („Ja“)})
+(wenn {(A01 („Promotionsstatus") = 1 („promoviere"), 2 („abgeschlossen")
+oder 3 („unterbrochen")) und („konkretes Promotionsthema") = („Ja")})
 
 vn:
 adtc04(adtc04a/adtc04b/adtc04c/adtc04d/adtc04e/adtc04f/adtc04g/adtc04h/adtc04i/adtc04j)
@@ -1475,11 +1499,11 @@ vc:
 
 SHOW q1 IF adbi01 = 1 OR adbi01 = 3
 
-SHOW ao1a – ao9a IF adbi01 = 1 OR adbi01 = 3
+SHOW ao1a -- ao9a IF adbi01 = 1 OR adbi01 = 3
 
 SHOW q2 IF adbi01 = 2
 
-SHOW ao1b – ao9b IF adbi01 = 2
+SHOW ao1b -- ao9b IF adbi01 = 2
 
 av:
 
@@ -1502,12 +1526,13 @@ Text ist in verschiedenen Zeitformen
 
 pn
 
-## \[B05\]
+\[B05\]
+-------
 
 tc: IF adbi01 = 1 OR adbi01 = 3
 
-(wenn A01 („Promotionsstatus“) = 1 („promoviere“) oder 3
-(„unterbrochen“))
+(wenn A01 („Promotionsstatus") = 1 („promoviere") oder 3
+(„unterbrochen"))
 
 vn: adcd03
 
@@ -1549,12 +1574,13 @@ hi:
 
 pn
 
-## \[B06\]
+\[B06\]
+-------
 
 tc: IF adbi01 = 1 OR adbi01 = 2 OR adbi01 = 3
 
-(wenn A01 („Promotionsstatus“) = 1 („promoviere“), 2 („abgeschlossen“)
-oder 3 („unterbrochen“))
+(wenn A01 („Promotionsstatus") = 1 („promoviere"), 2 („abgeschlossen")
+oder 3 („unterbrochen"))
 
 vn: adcd04
 
@@ -1615,16 +1641,17 @@ hi:
 
 pn
 
-## \[B07\]
+\[B07\]
+-------
 
 tc: IF (adbi01 = 1 OR adbi01 = 2 OR adbi01 = 3) AND (adcd04 = 1 OR
 adcd04 = 2)
 
-(wenn A01 („Promotionsstatus“) = 1 („promoviere“), 2 („abgeschlossen“)
-oder 3 („unterbrochen“)) und
+(wenn A01 („Promotionsstatus") = 1 („promoviere"), 2 („abgeschlossen")
+oder 3 („unterbrochen")) und
 
-B06 („Mitglied Promotionsprogramm“) = 1 („ordentliches Mitglied“) oder 2
-(„assoziiertes Mitglied“))
+B06 („Mitglied Promotionsprogramm") = 1 („ordentliches Mitglied") oder 2
+(„assoziiertes Mitglied"))
 
 vn:
 adcd05(adcd05a/adcd05b/adcd05c/adcd05d/adcd05e/adcd05f/adcd05g/adcd05h/adcd05i/adcd05j/adcd05k)
@@ -1692,14 +1719,15 @@ hi:
 
 pn
 
-## \[B08\]
+\[B08\]
+-------
 
 tc: IF (adbi01 = 1 OR adbi01 = 2 OR adbi01 = 3) AND (adcd04 = 1 OR
 adcd04 = 2)
 
-(wenn A01 („Promotionsstatus“) = 1 („promoviere“), 2 („abgeschlossen“)
-oder 3 („unterbrochen“)) und B06 („Mitglied Promotionsprogramm“) = 1
-(„ordentliches Mitglied“) oder 2 („assoziiertes Mitglied“))
+(wenn A01 („Promotionsstatus") = 1 („promoviere"), 2 („abgeschlossen")
+oder 3 („unterbrochen")) und B06 („Mitglied Promotionsprogramm") = 1
+(„ordentliches Mitglied") oder 2 („assoziiertes Mitglied"))
 
 vn: adcd06(adcd06a/adcd06b/adcd06c)
 
@@ -1748,14 +1776,15 @@ hi:
 
 pn
 
-## \[B09\]
+\[B09\]
+-------
 
 tc: IF (adbi01 = 1 OR adbi01 = 2 OR adbi01 = 3) AND (adcd04 = 1 OR
 adcd04 = 2)
 
-(wenn A01 („Promotionsstatus“) = 1 („promoviere“), 2 („abgeschlossen“)
-oder 3 („unterbrochen“)) und B06 („Mitglied Promotionsprogramm“) = 1
-(„ordentliches Mitglied“) oder 2 („assoziiertes Mitglied“))
+(wenn A01 („Promotionsstatus") = 1 („promoviere"), 2 („abgeschlossen")
+oder 3 („unterbrochen")) und B06 („Mitglied Promotionsprogramm") = 1
+(„ordentliches Mitglied") oder 2 („assoziiertes Mitglied"))
 
 vn: adcd07(adcd07a/adcd07b/adcd07c)
 
